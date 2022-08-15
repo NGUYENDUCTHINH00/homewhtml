@@ -1,0 +1,533 @@
+/* h3{
+    color: green;
+    font-size: 50px;
+}
+h1{
+    color: rgb(60, 51, 51)!important;
+}
+h2{
+    color: purple;
+} */
+/* 
+inline(gắn trực tiếp vào html )(Mức độ ưu tiên cao nhất)
+internal(thẻ style) và external mức độ ưu tiên như nhau  */
+
+/* !importaint /*/
+
+
+
+
+/* h1{
+    color: lightblue;
+    font-size: 50ox;
+}
+/* 
+CSS selectors
+id , class */
+
+/* #demo-id{
+    color :rgb(20, 19, 19);
+}
+
+
+.demo-class{
+    font-size: 100px;
+/* } */ 
+
+
+/* 
+CSS specifics  */
+
+/* Box model */
+/* margin , padding , border wirdth , height  */
+
+
+/* *{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;  
+    color: #c23737;
+    font-family: 'Rubik Burned', cursive;
+    font-weight:900;
+    text-align: center;
+}
+.box-model{
+    background-color: red;
+    color:white;
+    font-size:50px;
+    width:300px;
+    height:300px;
+    padding:30px;
+    margin:30px;
+    border:5px solid black;
+    /* display:inline-block */
+    /* box-sizing: border-box;
+    color: blue;
+    text-align: center;
+    text-transform: capitalize;
+    background: url("https://vcdn1-dulich.vnecdn.net/2021/07/16/3-1-1626444927.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=0nww5sftrDimoUxyn9lM5g");
+    background-size: cover;
+    background-repeat:repeat;
+    background-position:center center ;
+}
+.inline{
+    display:inline-block;
+    /* block,inline,inline-block */
+/* } */ 
+
+ /*color : red ; blue ;....  */
+ /* color : #000000 */
+ /* color : rgb(red,green , blue */
+ /* background-color */
+
+ /* font */
+ /* font-size :10px */
+ /* font-weight : bold,bolder,...
+ font-family : */
+
+
+ /* text */
+ /* text - align : left , right , center  */
+ /* text-tranform : lowercasse uppercasr capitalice */
+ /* text decoration : none */
+
+
+ /* *{
+    text-decoration: none;
+ } */
+
+ /* Background */
+/* background: url("");
+background-size: cover;
+background-postition : center center;
+background-repeat: no-repeat ;  */
+
+
+/* .blog-container{
+    width: 460px;
+}
+
+.blog-container img {
+    width: 100%;
+}
+
+.blog-container h2 {
+    font-size: 26px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.blog-container p {
+    font-weight: 300px;
+} */
+
+
+/* margin: 10px
+padding : 10px
+border: 10px
+
+-top,-bottom,-left,-right
+margin-top
+padding-bottom
+borfer-left */
+
+
+
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* Bài 1: */
+/* hihi {
+    width: 900px;
+  }
+  h1{
+    color: #005a9b;
+  }
+  .hihi div {
+    background-color: rgb(236, 200, 156);
+    width: 850px;
+    border-left: 10px solid coral;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding: 10px;
+  } */
+
+/* Bài 2 : */
+
+
+/* .title1 {
+    width: 730px;
+    border: 3px solid green;
+    background-position: 30px;
+    text-align: center;
+  }
+  
+  .kk {
+    width: 800px;
+    background-color: #e5e8ed;
+    border-left: 30px;
+    padding: 10px;
+  }
+  
+  .brow {
+    color: #7F3136;
+  }
+  .title {
+    color: #C02750;
+    background-color: #F5F5F5;
+  }
+  .blue {
+    color: #161696;
+  }
+  .background {
+    background-color: #ffffff;
+  }
+  .anvao {
+    background-color: #07ab6f;
+    border: 0px;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    color: white;
+  }
+.title2{
+    color: red;
+} */
+
+/* Bài 3: */
+
+/* .blog-drama{
+    width: 460px;
+}
+
+.blog-drama img {
+    width: 100%;
+}
+
+.blog-drama h3 {
+    font-size: 26px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+} */
+
+
+ /* Bài 4: */
+
+ /* .pic{
+    line-height: 194px;
+    width: 273px;
+    height: 194px;
+    background-color: #879097;
+    text-align: center;
+    color: #DAE3EA;
+ }
+
+ .card{
+    width: 251px;
+    height: 138px;
+    border: 1px solid #EBEBEB;
+    padding-left: 20px;
+    padding-top: 1px;
+
+ }
+
+ .card2{
+  width: 251px;
+  height: 1px;
+  border: 1px solid #EBEBEB;
+  padding-left: 20px;
+  padding-top: 1px;
+  padding-bottom: 50px;
+ } */
+
+
+/* Bài 5: */
+
+/* .table{
+  width: 400px;
+  height: 15px;
+  background-color: #F7F7F7;
+  border: 1px solid #DEDEDE;
+  padding-left: 300px;
+  padding-bottom: 30px;
+}
+
+.table2{
+  width: 700px;
+  height: 150px;
+  border: 1px solid #DEDEDE;
+  text-align: center;
+}
+
+.table2 h3{
+  padding-right: 45px;
+}
+.table2 p {
+  padding-right: 43px;
+}
+
+.table2 button{
+  background-color: #317de1;
+  border-radius: 5px;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 5px;
+  border: 1px ;
+  font-size: 15px;
+  width: 130px;
+  height: 40px;
+} */
+
+
+
+
+
+/* bai6 */
+    /* .title{
+        width: 500px;
+        border:1px solid #e1e1e1;
+        border-radius: 5px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        
+    }
+    .title1{
+        border-bottom:1px solid #e1e1e1;
+    height:60px;
+    line-height: 30px;
+    }
+    .title2{
+        border-bottom:1px solid #e1e1e1;
+        height:60px;
+        line-height: 30px;
+    }
+    .title3{
+        height:60px;
+        line-height: 30px;
+    }
+    .button{
+        border-radius: 40%;
+        background-color: #0172F2;
+        padding-left:5px;
+        padding-right:5px;
+        color:white;
+        font-size: small;
+        padding-top: 1px;
+        padding-bottom: 1px;
+    } */
+/* bai7 */
+/* .title{
+    
+    border: 1px solid #e1e1e1;
+    width:500px;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+
+}
+.title2{
+    border-bottom:1px solid #e1e1e1;
+    width:100%;
+    
+    
+}
+.title3{
+    border-bottom: 1px solid #e1e1e1;
+    height:40px;
+    line-height: 40px;
+    text-align: center;
+}
+.title4{
+    height:60px;
+    text-align: right;
+    vertical-align: middle;
+    padding-right: 15px;
+    line-height: 60px;
+
+}
+
+.button{
+    padding:7px;
+    background-color: #0b6ffc;
+    color: white;
+    border:0px;
+    border-radius: 4px;
+} */
+
+/* bai8 */
+/* .title{
+    width: 650px;
+    border: 1px solid #e1e1e1;
+    border-radius: 6px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+   
+}
+.title2{
+    width: 650px;
+    border-bottom: 1px solid #e1e1e1;
+    height: 50px;
+    line-height: 50px;
+    color:#1860DA;
+    background-color: #E8F2FF;
+    border-radius: 6px 6px 0px 0px;
+
+
+}
+.title3{
+    border-bottom: 1px solid #e1e1e1;
+    padding:15px;
+}
+.title4{
+    width: 650px;
+    border-bottom: 1px solid #e1e1e1;
+    height: 50px;
+    line-height: 50px;
+}
+.title5{
+    width: 650px;
+    border-bottom: 1px solid #e1e1e1;
+    height: 50px;
+    line-height: 50px;
+} */
+
+/* bai9 */
+/* .title{
+    width: 400px;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+
+}
+.title1{
+    border-bottom: 1px solid #e1e1e1;
+    height:40px;
+    line-height: 40px;
+}
+.box{
+    border: 3px solid #007AFF;
+    border-radius: 7px;
+    border-right: 4.5px solid #007AFF;
+    background-color: #007AFF;
+    color: #007AFF;
+} */
+
+/* bai10 */
+/* .layout{
+    width: 286px;
+    height: 490px;
+    border: 2px solid #EAE8E8;
+    border-radius: 160px 160px 15px 15px;
+    padding: 15px;
+    padding-top:10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 410;
+}
+.layout2{
+    width: 285px;
+    height:300px;
+    background-color: #BF2628;
+    border-radius: 50% 50% 20px 20px;
+    position: relative;
+}
+.layout2 img{
+    width: 290px;
+    height: 300px;
+    position:absolute;
+    border-radius: 48% 50% 20px 20px;
+} */
+
+/* bai11 */
+/* .circle{
+    height: 190px;
+    width: 190px;
+    
+    border-radius: 50%;
+   padding:10px;
+
+   position:relative;
+   left:12%;
+  top: 30px;
+   font-weight: 500;
+   background-color: white;
+}
+
+.circle img{
+   border-radius: 50%  ;
+   display: block;
+   margin-left: auto;
+   margin-right:auto;
+   margin-bottom: 30px;
+   width: 190px;
+   height: 190px;
+}
+.layout{
+    width: 300px;
+    height: 350px;
+    padding:20px;
+    text-align: center;
+    background-color: #FCF9F9;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
